@@ -1,0 +1,33 @@
+/* LeaveStatus.css */
+.job-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .job-table th,
+  .job-table td {
+    border: 1px solid #0b0c0b;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .job-table th {
+    background-color: #5ce079;
+    color: #0b0606;
+  }
+  
+  .job-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .job-table tbody tr:hover {
+    background-color: #b3e3f2;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

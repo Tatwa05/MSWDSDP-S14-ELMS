@@ -1,0 +1,102 @@
+ul {
+    margin: ;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar {
+  
+    text-align: right; /* Align text to the right */
+    border-radius: 40px; /* Increased curved edges for the entire navbar */
+    width: 99%; /* Set width to 95% of the page width */
+    max-width: 1500px; /* Set maximum width to prevent stretching too wide */
+    margin: 0 auto; /* Center the navbar */
+    height: 66px;
+    background-color: #0d023b;
+  }
+  
+  
+  
+  
+  
+  .navbar a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar a:hover {
+    background-color: #87dff3;
+    border-radius: 30px; /* Add border-radius for oval shape */
+    text-size-adjust: 100%; /* or 'auto' */
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar {
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: auto;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive; 
+    font-size: 29px;
+  }
+  
+  .logo a:hover {
+    background-color: #0d023b;
+    border-radius: 3px; /* Add border-radius for oval shape */
+    text-size-adjust: 100%; /* or 'auto' */
+    font-weight: bolder;
+    color:white;
+    
+  }
+  
+  
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="number"],
+  input[type="email"],
+  select,
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+  }
+  

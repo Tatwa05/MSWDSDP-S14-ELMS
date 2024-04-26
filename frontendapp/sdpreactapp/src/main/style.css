@@ -1,0 +1,126 @@
+ul {
+    margin: ;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar {
+  
+    text-align: right; /* Align text to the right */
+    border-radius: 40px; /* Increased curved edges for the entire navbar */
+    width: 99%; /* Set width to 95% of the page width */
+    max-width: 1500px; /* Set maximum width to prevent stretching too wide */
+    margin: 0 auto; /* Center the navbar */
+    height: 66px;
+    background-color: #0d023b;
+  }
+  
+  
+  
+  
+  .navbar a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar a:hover {
+    background-color: #87dff3;
+    border-radius: 30px; /* Add border-radius for oval shape */
+    text-size-adjust: 100%; /* or 'auto' */
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .navbar {
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: auto;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive; 
+    font-size: 29px;
+  }
+  
+  .logo a:hover {
+    background-color: #0d023b;
+    border-radius: 3px; /* Add border-radius for oval shape */
+    text-size-adjust: 100%; /* or 'auto' */
+    font-weight: bolder;
+    color:white;
+    
+  }
+
+  .logo + li {
+    margin-left:900px;
+  }
+
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d023b;
+    min-width: 120px;
+    z-index: 1;
+    top:100%;
+    left: 0;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #0d023b;
+
+  }
+  
+  
