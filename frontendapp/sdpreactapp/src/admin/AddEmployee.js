@@ -32,7 +32,7 @@ export default function AddEmployee() {
      e.preventDefault();
      try 
      {
-       const response = await axios.post('http://localhost:2014/insertemployee',formData);
+       const response = await axios.post('https://mswdsdp-s14-elms.onrender.com/insertemployee',formData);
        if (response.status === 200) 
        {
          

@@ -28,7 +28,7 @@ export default function LeaveStatus() {
 
   const fetchLeaves = async () => {
     try {
-      const response = await axios.get(`http://localhost:2014/viewleaves/${employeeData.email}`);
+      const response = await axios.get(`https://mswdsdp-s14-elms.onrender.com/viewleaves/${employeeData.email}`);
       setLeaves(response.data);
     } catch (error) {
       setError(error.response.data);

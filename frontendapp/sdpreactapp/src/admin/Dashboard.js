@@ -26,7 +26,7 @@ export default function Dashboard() {
   }, []);
   const fetchCounts = async () => {
     try {
-      const response = await axios.get(`http://localhost:2014/analysis`);
+      const response = await axios.get(`https://mswdsdp-s14-elms.onrender.com/analysis`);
       setCounts(response.data);
       
     } catch (error) {

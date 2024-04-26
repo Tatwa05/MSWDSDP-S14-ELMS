@@ -19,7 +19,7 @@ export default function Leaves() {
   const fetchLeaves = async () => {
     try 
     {
-      const response = await axios.get(`http://localhost:2014/adminviewleaves`);
+      const response = await axios.get(`https://mswdsdp-s14-elms.onrender.com/adminviewleaves`);
       setLeaves(response.data);
     } 
     catch (error) 
@@ -35,7 +35,7 @@ export default function Leaves() {
   const handleStatusChange= async (leaveid, status) => {
     try 
     {
-      const response = await axios.post('http://localhost:2014/changeleavestatus', { leaveid , status });
+      const response = await axios.post('https://mswdsdp-s14-elms.onrender.com/changeleavestatus', { leaveid , status });
       fetchLeaves();
       setMessage(response.data);
       setError(''); // Set error to ""

@@ -34,7 +34,7 @@ export default function ChangePassword() {
       e.preventDefault();
       try 
       {
-        const response = await axios.put('http://localhost:2014/changeemppassword', {...formData,"email":employeeData.email});
+        const response = await axios.put('https://mswdsdp-s14-elms.onrender.com/changeemppassword', {...formData,"email":employeeData.email});
         if (response.data != null) 
         {
           localStorage.removeItem('isEmpLoggedIn');
